@@ -1,8 +1,8 @@
 # CynthiaUngwusite
-# Website Clone Practice
+
 
 ## Description
-This project is a practice exercise aimed at creating a clone of a website for educational and skill development purposes only. The cloned website is for practice and not intended for public use or distribution.
+This project is a practice exercise aimed at creating a clone of a website for educational and skill development purposes only.
 
 ## Installation
 1. Clone this repository to your local machine
