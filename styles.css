@@ -164,9 +164,12 @@ body {
 }
 .experience img {
   position: absolute;
-  top: 0px;
+  /* top: -40px; */
   height: 140%;
   z-index: 34;
+  
+  /* opacity: 0; */
+  /* transform: translateY("30%"); */
   display: none;
 }
 

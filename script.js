@@ -13,6 +13,19 @@ function Circlemouse(xs,ys){
         document.querySelector("#minicircle").style.transform =`translate(${dets.clientX}px,${dets.clientY}px) scale(${xs},${ys})`;
     })
 }
+// function AnimExp1(){
+    
+    
+//     gsap.utils.toArray(".experience1").forEach(experience => {
+//         let hover = gsap.to(".experience1 img", {scale: 1.12 ,display :block,opacity :10, duration: 1.5, paused: true, ease: "power1.inOut"})
+//         hover=gsap.from(".experience1 img" , {
+//             opacity :0,
+//             display :none
+//         })
+//         experience.addEventListener("mouseenter", () => hover.play());
+//         experience.addEventListener("mouseleave", () => hover.reverse());
+//       })
+// }
 
 function mainanim(){
     var t1=gsap.timeline();
@@ -66,3 +79,4 @@ function circleskew(){
 Circlemouse();
 mainanim();
 circleskew();
+AnimExp1();
